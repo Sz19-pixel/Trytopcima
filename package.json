@@ -1,0 +1,31 @@
+{
+  "name": "topcinema-stremio-addon",
+  "version": "1.0.0",
+  "description": "Stremio addon for TopCinema - Arabic movies, TV shows and anime",
+  "main": "addon.js",
+  "scripts": {
+    "start": "node addon.js",
+    "dev": "nodemon addon.js"
+  },
+  "keywords": [
+    "stremio",
+    "addon",
+    "topcinema",
+    "arabic",
+    "movies",
+    "tv-shows",
+    "anime"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "stremio-addon-sdk": "^1.6.10",
+    "node-fetch": "^2.6.12"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
