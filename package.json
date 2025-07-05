@@ -1,29 +1,29 @@
 {
-  "name": "topcinema-stremio-addon",
-  "version": "1.0.0",
-  "description": "Stremio addon for TopCinema - Arabic movies, TV shows and anime",
-  "main": "addon.js",
+  "name": "kdramahood-stremio-addon",
+  "version": "2.0.0",
+  "description": "KDramaHood Stremio Addon for Korean Drama streaming",
+  "main": "index.js",
   "scripts": {
-    "start": "node addon.js",
-    "dev": "nodemon addon.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "node test.js"
   },
   "keywords": [
     "stremio",
     "addon",
-    "topcinema",
-    "arabic",
-    "movies",
-    "tv-shows",
-    "anime"
+    "kdrama",
+    "korean",
+    "drama",
+    "streaming"
   ],
-  "author": "Your Name",
+  "author": "ibro",
   "license": "MIT",
   "dependencies": {
     "stremio-addon-sdk": "^1.6.10",
-    "node-fetch": "^2.6.12"
+    "node-fetch": "^2.6.7"
   },
   "devDependencies": {
-    "nodemon": "^3.0.1"
+    "nodemon": "^2.0.20"
   },
   "engines": {
     "node": ">=14.0.0"
