@@ -226,7 +226,8 @@ builder.defineStreamHandler(async (args) => {
     }
 });
 
+// Create and start the addon
+const addonInterface = builder.getInterface();
+
 // Export as serverless function for Vercel
-module.exports = (req, res) => {
-    return builder.getInterface()(req, res);
-};
+module.exports = addonInterface;
